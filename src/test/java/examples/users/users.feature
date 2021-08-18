@@ -11,7 +11,7 @@ Feature: sample karate test script
 
     * def first = response[0]
 
-      Given path 'users', first.id
+    Given path 'users', first.id
     When method get
     Then status 200
 
